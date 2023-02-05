@@ -4,6 +4,7 @@ pipeline {
         stage('switch user') {
             steps {
                 sh 'whoami'
+                sh 'pwd'
             }
         }
         stage('build') {
