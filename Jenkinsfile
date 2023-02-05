@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('switch user') {
             steps {
-                sh 'whoami'
+                sh 'su -'
             }
         }
         stage('build') {
