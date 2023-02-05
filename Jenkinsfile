@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'su ubuntu'
             }
+        }
         stage('build') {
             steps {
                 sh 'docekr ps'
